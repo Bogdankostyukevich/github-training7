@@ -731,7 +731,8 @@ ul {
     padding-bottom: 94px;
 }
 
-.customers .section-title {
+.customers__section-title {
+    color: var(--primery-text-color);
     text-align: center;
     margin: 0;
     padding: 0;
@@ -741,7 +742,7 @@ ul {
     letter-spacing: 00.03em;
 }
 
-.customers .container-list {
+.customers__container-list {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -784,13 +785,13 @@ ul {
     /* fill: currentColor; */
 }
 
-/* подвал */
+     /* подвал */
 
 .page-footer {
     background-color: #2F303A;
 }
 
-.footer-join {
+.page-footer__container {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
@@ -821,12 +822,12 @@ ul {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.auth-nav__link:hover,
+.auth-nav__link:focus {
     color: var(--accent-color);
 }
 
-.address {
+.auth-nav__address {
     color: var(--primery-white-color);
     font-style: normal;
     font-size: 14px;
@@ -835,7 +836,7 @@ ul {
     margin-bottom: 9px;
 }
 
-.mail {
+.auth-nav__mail {
     margin-bottom: 9px;
 }
 
@@ -845,7 +846,7 @@ ul {
     width: 206px;
 }
 
-.join{
+.social-networks__text{
     margin: 0;
     padding: 0;
     color: var(--primery-white-color);
@@ -858,13 +859,13 @@ ul {
     text-transform: uppercase;
 }
 
-.list-network {
+.social-networks__list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.network-link {
+.social-networks__link {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -879,13 +880,13 @@ ul {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.network-link:hover,
-.network-link:focus {
+.social-networks__link:hover,
+.social-networks__link:focus {
     background-color: var(--accent-color);
     color: var(--primery-white-color);
 }
 
-.link-icon {
+.social-networks__icon {
     fill: currentColor;
 }
 
@@ -895,12 +896,12 @@ ul {
     margin-left: 93px;
 }
 
-.form-subscribe {
+.subscribe__form {
     display: flex;
     flex-direction: column;
 }
 
-.mailing-form {
+.subscribe__label {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.142;
@@ -912,7 +913,7 @@ ul {
     margin-bottom: 20px;
 }
 
-.subscribe-mailing-form {
+.subscribe__input {
     width: 358px;
     height: 50px;
 
@@ -932,13 +933,13 @@ ul {
 
 }
 
-.subscribe-mailing-form::placeholder {
+.subscribe__input::placeholder {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
 }
 
-.subscribe-button {
+.subscribe__button {
     font-weight: bold;
     font-size: 16px;
     line-height: 1.875;
@@ -957,9 +958,11 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: transparent;
+
+    cursor: pointer;
 }
 
-.icon-airplane {
+.subscribe__icon {
     margin-left: 10px;
 }
 
