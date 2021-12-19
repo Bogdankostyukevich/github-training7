@@ -1,0 +1,38 @@
+:root {
+  --primery-text-color: #212121;
+  --title-text-color:  #757575;
+  --accent-color: #2196F3;
+  --primery-white-color: #ffffff;
+  --section-command-bc: #F5F4FA;
+  --clients-color: #AFB1B8;
+  --footer-color: #2F303A;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--title-text-color);
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+}
+
+.logo__color__dark {
+  color: var(--primery-text-color);
+  font-size: 26px;
+}
+/*# sourceMappingURL=main.css.map */
