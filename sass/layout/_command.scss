@@ -1,41 +1,43 @@
 .command {
     background-color: var(--section-command-bc);
     padding-bottom: 94px;
-}
 
-.command-title {
-color: var(--primery-text-color);
+    &-title {
+        color: var(--primery-text-color);
+    
+        margin: 0;
+        padding: 0;
+        padding-top: 94px;
+    
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.166;
+        text-align: center;
+    }
 
-margin: 0;
-padding: 0;
-padding-top: 94px;
-
-font-weight: 700;
-font-size: 36px;
-line-height: 1.166;
-text-align: center;
-}
-
-.command .work {
-    padding-top: 94px;
-    margin-bottom: 50px;
+    & .work {
+        padding-top: 94px;
+        margin-bottom: 50px;
+    }
 }
 
 .employees-list {
     display: flex;
-}
 
-.employees-list__title + .employees-list__title {
-    margin-left: 30px;
-}
+    &__title + &__title {
+        margin-left: 30px;
+    }
 
-.employees-list__title {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
+    &__title {
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+         0px 1px 1px rgba(0, 0, 0, 0.14),
+          0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+    }
 
-.employees-list__title {
-    background-color: var(--primery-white-color);
+    &__title {
+        background-color: var(--primery-white-color);
+    }
 }
 
 .photo {

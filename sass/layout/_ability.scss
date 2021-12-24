@@ -2,22 +2,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
 
-.feature-list__item {
-    margin-right: 30px;
-}
+    .feature-list__item {
+        margin-right: 30px;
 
-.feature-list__item:nth-child(4n) {
-    margin-right: 0;
-}
+        &:nth-child(4n) {
+            margin-right: 0;
+        }
+    }
 
-.feature-list .title {
-    color: var(--primery-text-color);
-}
-
-.feature-list__item {
-    width: 270px;
+    & .title {
+        color: var(--primery-text-color);
+    }
+    
+    &__item {
+        width: 270px;
+    }
+    
 }
 
 .ability-title {
@@ -31,14 +32,13 @@
     font-size: 36px;
     line-height: 1.166;
     text-align: center;
+
+    .ability & {
+        margin-bottom: 50px;
+    }
 }
 
-
-.ability .ability-title {
-    margin-bottom: 50px;
-}
-
-.list-icone {
+.list-icon {
     flex-basis: calc((100% - 90px) / 4);
 }
 
